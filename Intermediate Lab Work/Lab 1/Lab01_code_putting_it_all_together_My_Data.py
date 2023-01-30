@@ -18,7 +18,7 @@ from scipy import optimize
 # In[ ]:
 
 
-data_file = np.loadtxt("Lab1_Data.csv",delimiter=',',skiprows=2)
+data_file = np.loadtxt("Lab1_Data.csv", delimiter=',',skiprows=2)
 v = data_file[:,0]
 dv = data_file[:,1]
 i = 0.001*data_file[:,2] #convert mA to Amp
