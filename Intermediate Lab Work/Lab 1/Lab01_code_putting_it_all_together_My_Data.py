@@ -190,3 +190,5 @@ for j in range(0, len(v)):
 
 
 
+
+#%%
